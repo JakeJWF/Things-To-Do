@@ -18,7 +18,7 @@ function calculateTime(time) {
     // For loop to organize everything
     for (let i = 0; i < thingsToDo.length; i++) {
         // set num to the converted time variable divided by the number used in array thingsToDo
-        num = Math.Floor(timeToDo[i] / (240 / time));
+        num = Math.floor(timeToDo[i] / (240 / time));
         altogether += `${thingsToDo[i]} time: ${num} \r\n`;
     }
     // Log everything in console
